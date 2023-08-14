@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "crud-operation-func-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudOperationFunc/CrudOperationFuncWebPart.js",
+          "manifest": "./src/webparts/crudOperationFunc/CrudOperationFuncWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CrudOperationFuncWebPartStrings": "lib/webparts/crudOperationFunc/loc/{locale}.js"
+  }
+}
